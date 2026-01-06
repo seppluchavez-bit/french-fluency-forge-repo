@@ -1,0 +1,791 @@
+{
+  "version": "2026-01-15",
+  "module": "syntax",
+  "meta": {
+    "description": "Syntax exercises for assessing A2→B1 grammatical structures (3 exercises: E1 15s, E2 30s, E3 60s)",
+    "lastUpdated": "2026-01-15",
+    "author": "French Fluency Forge"
+  },
+  "prompts": [
+    {
+      "id": "syn-E1-01",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères le week-end : rester à la maison ou sortir ? Une phrase + une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-02",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères le café ou le thé ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-03",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères voyager seul(e) ou avec des amis ? Une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-04",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères le matin ou le soir ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-05",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference", "negation"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères la plage ou la montagne ? Une phrase avec une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs", "negation"]
+      }
+    },
+    {
+      "id": "syn-E1-06",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères lire un livre ou regarder un film ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-07",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères la ville ou la campagne ? Une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-08",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères cuisiner ou manger au restaurant ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-09",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference", "negation"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères le sport ou la musique ? Une phrase avec une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-10",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères l'été ou l'hiver ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-11",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères travailler seul(e) ou en équipe ? Une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-12",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les chats ou les chiens ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-13",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les films d'action ou les comédies ? Une phrase + une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-14",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les vacances à la mer ou à la montagne ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-15",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les petits restaurants ou les grandes chaînes ? Une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-16",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères apprendre en ligne ou en classe ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-17",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les matinées ou les soirées ? Une phrase avec une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-18",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les fruits ou les légumes ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-19",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les transports en commun ou la voiture ? Une raison.",
+        "targetStructures": ["connectors", "parce que", "mais", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E1-20",
+      "type": "syntax_exercise",
+      "tags": ["A2", "connectors", "preference"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E1",
+        "duration": 15,
+        "instruction": "Tu préfères les livres papier ou les e-books ? Pourquoi ?",
+        "targetStructures": ["connectors", "parce que", "preference verbs"]
+      }
+    },
+    {
+      "id": "syn-E2-01",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu as une mission : organiser un petit dîner. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-02",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain matin, tu prépares un voyage. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-03",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce week-end, tu organises une fête surprise. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-04",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu prépares un examen. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-05",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing", "pronouns"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain, tu fais le ménage complet. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis", "object pronouns"]
+      }
+    },
+    {
+      "id": "syn-E2-06",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu prépares un repas spécial. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-07",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain matin, tu commences un nouveau projet. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-08",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce week-end, tu organises une sortie avec des amis. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-09",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu prépares une présentation. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-10",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain, tu fais les courses pour la semaine. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-11",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing", "modality"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu organises une soirée jeux. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis", "pouvoir", "devoir"]
+      }
+    },
+    {
+      "id": "syn-E2-12",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain matin, tu prépares un pique-nique. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-13",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce week-end, tu rénoves une pièce. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-14",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu prépares un cadeau pour quelqu'un. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-15",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain, tu organises une journée productive. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-16",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce week-end, tu prépares une randonnée. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-17",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu organises une soirée cinéma. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-18",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Demain matin, tu prépares un rendez-vous important. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-19",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce week-end, tu organises un barbecue. Donne 3 actions dans l'ordre (d'abord/ensuite/puis).",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E2-20",
+      "type": "syntax_exercise",
+      "tags": ["A2", "futur_proche", "sequencing"],
+      "difficulty": 2,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E2",
+        "duration": 30,
+        "instruction": "Ce soir, tu prépares une surprise pour un anniversaire. Donne 3 étapes dans l'ordre.",
+        "targetStructures": ["futur proche", "sequencers", "d'abord", "ensuite", "puis"]
+      }
+    },
+    {
+      "id": "syn-E3-01",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : ton ami(e) te demande de mentir pour lui/elle. Raconte la situation et dis ce que tu fais, et pourquoi.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-02",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as dû prendre une décision difficile. Qu'est-ce qui s'est passé ? Qu'est-ce que tu as fait ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "mais"]
+      }
+    },
+    {
+      "id": "syn-E3-03",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu découvres que ton meilleur ami(e) a un secret. Raconte ce qui s'est passé et dis ce que tu fais.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-04",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un conflit que tu as eu avec quelqu'un. Qu'est-ce qui s'est passé ? Comment tu l'as résolu ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "donc"]
+      }
+    },
+    {
+      "id": "syn-E3-05",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu dois choisir entre deux offres d'emploi. Raconte la situation et explique ton choix.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-06",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as aidé quelqu'un. Qu'est-ce qui s'est passé ? Pourquoi tu l'as fait ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "donc"]
+      }
+    },
+    {
+      "id": "syn-E3-07",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu dois dire la vérité à quelqu'un qui ne veut pas l'entendre. Raconte la situation et dis ce que tu fais.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-08",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un souvenir d'enfance important. Qu'est-ce qui s'est passé ? Pourquoi c'est important pour toi ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "mais"]
+      }
+    },
+    {
+      "id": "syn-E3-09",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu dois choisir entre rester fidèle à tes principes ou aider un ami(e). Raconte la situation et explique ton choix.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-10",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as dû dire non à quelqu'un. Qu'est-ce qui s'est passé ? Pourquoi tu as dit non ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "donc"]
+      }
+    },
+    {
+      "id": "syn-E3-11",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu découvres que quelqu'un a menti sur toi. Raconte ce qui s'est passé et dis ce que tu fais.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-12",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as surmonté une peur. Qu'est-ce qui s'est passé ? Comment tu l'as fait ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "donc"]
+      }
+    },
+    {
+      "id": "syn-E3-13",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu dois choisir entre deux amis qui se disputent. Raconte la situation et explique ce que tu fais.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-14",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as appris quelque chose d'important sur toi-même. Qu'est-ce qui s'est passé ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "mais"]
+      }
+    },
+    {
+      "id": "syn-E3-15",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu dois révéler un secret qui va changer tout. Raconte la situation et dis ce que tu fais, et pourquoi.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-16",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as dû faire confiance à quelqu'un. Qu'est-ce qui s'est passé ? Pourquoi c'était difficile ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "donc"]
+      }
+    },
+    {
+      "id": "syn-E3-17",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu dois choisir entre suivre ton cœur ou suivre la raison. Raconte la situation et explique ton choix.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-18",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as dû défendre quelqu'un ou quelque chose. Qu'est-ce qui s'est passé ? Pourquoi c'était important ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "mais"]
+      }
+    },
+    {
+      "id": "syn-E3-19",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors", "questions"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Imagine : tu découvres que tu as fait une erreur importante. Raconte ce qui s'est passé et dis ce que tu fais pour la corriger.",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "questions", "si-clauses"]
+      }
+    },
+    {
+      "id": "syn-E3-20",
+      "type": "syntax_exercise",
+      "tags": ["A2", "passé_composé", "pronouns", "connectors"],
+      "difficulty": 3,
+      "cefr": "A2",
+      "payload": {
+        "exerciseType": "E3",
+        "duration": 60,
+        "instruction": "Raconte un moment où tu as dû faire un sacrifice pour quelqu'un. Qu'est-ce qui s'est passé ? Pourquoi tu l'as fait ?",
+        "targetStructures": ["passé composé", "pronouns", "connectors", "parce que", "donc"]
+      }
+    }
+  ]
+}
