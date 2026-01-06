@@ -1,0 +1,28 @@
+project_id = "mjqykgcvfteihqmgeufb"
+
+[functions.french-tts]
+verify_jwt = false
+
+[functions.transcribe-pronunciation]
+verify_jwt = false
+
+[functions.analyze-fluency]
+verify_jwt = false
+
+[functions.analyze-skill]
+verify_jwt = false
+
+[functions.analyze-comprehension]
+verify_jwt = false
+
+[functions.conversation-agent]
+verify_jwt = false
+
+[functions.analyze-pronunciation]
+verify_jwt = false
+
+[functions.analyze-syntax]
+verify_jwt = false
+
+[functions.systemeio-webhook]
+verify_jwt = false
